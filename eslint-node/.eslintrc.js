@@ -1,19 +1,16 @@
-// eslint-disable-next-line no-unused-vars
-const eslint = require("eslint");
-
-/** @type{eslint.Linter.BaseConfig} */
+/** @type{import("eslint").Linter.BaseConfig} */
 module.exports = {
   env: {
     node: true,
   },
-  extends: ["eslint:recommended", "prettier"],
-  plugins: ["prettier"],
+  extends: ['eslint:recommended', 'prettier'],
+  plugins: ['prettier'],
   overrides: [],
   parserOptions: {
-    ecmaVersion: "latest",
+    ecmaVersion: 'latest',
   },
   rules: {
-    "prettier/prettier": ["warn"],
+    'prettier/prettier': ['warn'],
   },
   root: true,
-};
+}
