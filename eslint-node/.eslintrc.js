@@ -14,8 +14,6 @@ module.exports = {
   },
   rules: {
     "prettier/prettier": ["warn"],
-    indent: ["error", 2],
-    "linebreak-style": ["error", "unix"],
   },
   root: true,
 };
